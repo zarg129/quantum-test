@@ -1,0 +1,27 @@
+.list {
+  height: 100%;
+  max-width: 400px;
+  margin: 30px;
+}
+
+.listItemDefault {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.listItemActive {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding-bottom: 15px;
+  color: green;
+  cursor: pointer;
+}

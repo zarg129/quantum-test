@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import classes from  './App.module.scss';
+import { useState, useEffect } from 'react';
+import SelectedPostDetails from './components/SelectedPostDetails/SelectedPostDetails.jsx';
+import getAllPosts from './api/api';
+import FilterInputByName from './components/FilterInputByName/FilterInputByName';
+import ListOfPosts from './components/ListOfPosts/ListOfPosts';
 
-function App() {
+const App = () => {
+  const [listOfPosts, setListOfPosts] = useState([]);
+  const [userNameFilter, setUserNameFilter] = useState('');
+  const [selectedPostId, setSelectedPostId] = useState(null);
+
+  useEffect(() => {
+    getAllPosts().then(res => setListOfPosts(res))
+  }, [userNameFilter])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={classes.App}>
+      <header className={classes.filterInputBLock}>
+        <FilterInputByName userNameFilter={userNameFilter} setUserNameFilter={setUserNameFilter} />
       </header>
+      
+      <main className={classes.main}>
+        <div className={classes.listBlock}>
+          <ListOfPosts 
+            setListOfPosts={setListOfPosts} 
+            userNameFilter={userNameFilter} 
+            listOfPosts={listOfPosts} 
+            setSelectedPostId={setSelectedPostId} 
+            selectedPostId={selectedPostId}
+          />
+        </div>
+        <div className={classes.detailsBlock}>
+          <SelectedPostDetails selectedPostId={selectedPostId} listOfPosts={listOfPosts} />
+        </div>
+      </main>
     </div>
   );
 }

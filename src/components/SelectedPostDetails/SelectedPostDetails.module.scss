@@ -1,0 +1,52 @@
+.postDetailsContainer {
+  position: absolute;
+  max-width: 500px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-25%, 0%);
+}
+
+.title {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: gray;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoImg {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+.selectedPostDetails {
+  transform: translate(-50%, 0%);
+  width: 100%;
+}
+
+.postTitle {
+  font-size: 35px;
+  line-height: 2rem;
+  font-family: sans-serif;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.postBody {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 12px;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+
+.postId {
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  font-size: 120px;
+  color: gray;
+  opacity: 0.3;
+}

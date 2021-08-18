@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/zarg129/quantum-test.git/static/css/main.9e2aaa4b.chunk.css",
-    "main.js": "/zarg129/quantum-test.git/static/js/main.364e9f95.chunk.js",
-    "main.js.map": "/zarg129/quantum-test.git/static/js/main.364e9f95.chunk.js.map",
-    "runtime-main.js": "/zarg129/quantum-test.git/static/js/runtime-main.bdd1aef6.js",
-    "runtime-main.js.map": "/zarg129/quantum-test.git/static/js/runtime-main.bdd1aef6.js.map",
-    "static/js/2.8dec51a9.chunk.js": "/zarg129/quantum-test.git/static/js/2.8dec51a9.chunk.js",
-    "static/js/2.8dec51a9.chunk.js.map": "/zarg129/quantum-test.git/static/js/2.8dec51a9.chunk.js.map",
-    "static/js/3.935ffc19.chunk.js": "/zarg129/quantum-test.git/static/js/3.935ffc19.chunk.js",
-    "static/js/3.935ffc19.chunk.js.map": "/zarg129/quantum-test.git/static/js/3.935ffc19.chunk.js.map",
-    "index.html": "/zarg129/quantum-test.git/index.html",
-    "static/css/main.9e2aaa4b.chunk.css.map": "/zarg129/quantum-test.git/static/css/main.9e2aaa4b.chunk.css.map",
-    "static/js/2.8dec51a9.chunk.js.LICENSE.txt": "/zarg129/quantum-test.git/static/js/2.8dec51a9.chunk.js.LICENSE.txt",
-    "static/media/image 3.19ce4578.png": "/zarg129/quantum-test.git/static/media/image 3.19ce4578.png"
+    "main.css": "/quantum-test/static/css/main.9e2aaa4b.chunk.css",
+    "main.js": "/quantum-test/static/js/main.364e9f95.chunk.js",
+    "main.js.map": "/quantum-test/static/js/main.364e9f95.chunk.js.map",
+    "runtime-main.js": "/quantum-test/static/js/runtime-main.c12cfc15.js",
+    "runtime-main.js.map": "/quantum-test/static/js/runtime-main.c12cfc15.js.map",
+    "static/js/2.8dec51a9.chunk.js": "/quantum-test/static/js/2.8dec51a9.chunk.js",
+    "static/js/2.8dec51a9.chunk.js.map": "/quantum-test/static/js/2.8dec51a9.chunk.js.map",
+    "static/js/3.935ffc19.chunk.js": "/quantum-test/static/js/3.935ffc19.chunk.js",
+    "static/js/3.935ffc19.chunk.js.map": "/quantum-test/static/js/3.935ffc19.chunk.js.map",
+    "index.html": "/quantum-test/index.html",
+    "static/css/main.9e2aaa4b.chunk.css.map": "/quantum-test/static/css/main.9e2aaa4b.chunk.css.map",
+    "static/js/2.8dec51a9.chunk.js.LICENSE.txt": "/quantum-test/static/js/2.8dec51a9.chunk.js.LICENSE.txt",
+    "static/media/image 3.19ce4578.png": "/quantum-test/static/media/image 3.19ce4578.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdd1aef6.js",
+    "static/js/runtime-main.c12cfc15.js",
     "static/js/2.8dec51a9.chunk.js",
     "static/css/main.9e2aaa4b.chunk.css",
     "static/js/main.364e9f95.chunk.js"
